@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Cờ Tướng</string>
+    <string name="pref_sound_key" translatable="false">switch_sound</string>
+    <string name="pref_level_key" translatable="false">list_computer_power</string>
+    <string name="pref_who_first_key" translatable="false">switch_computer_first</string>
+    <string name="pref_piece_style_key" translatable="false">list_chess_style</string>
+    <string name="now_loading">Đang tải…</string>
+    <string name="load_book_failed">Lỗi!</string>
+    <string name="congratulations_you_win">Chúc mừng, bạn đã thắng！</string>
+    <string name="you_lose_and_try_again">Bạn đã thua！</string>
+    <string name="play_too_long_as_lose">Chúc mừng, bạn đã thắng！</string>
+    <string name="pc_play_too_long_as_lose">Bạn đã thua！</string>
+    <string name="standoff_as_draw">Bất phân thắng bại！</string>
+    <string name="both_too_long_as_draw">Bất phân thắng bại！</string>
+    <string name="pref_sound_summary">Nếu bạn muốn mở nhạc</string>
+    <string name="pref_sound_title">Nhạc</string>
+    <string name="pref_handicap_summary">Chọn lượt đi đầu:%s</string>
+    <string name="pref_level_title">Cấp độ</string>
+    <string name="pref_level_summary">Cấp độ hiện tại:%s</string>
+    <string name="pref_who_first_summary">Để MÁY chơi trước</string>
+    <string name="pref_who_first_title">MÁY đi trước</string>
+    <string name="pref_piece_title">Mẫu bàn cờ</string>
+    <string name="pref_piece_style_summary">Mẫu hiện tại là:%s</string>
+    <string name="game_settings">Tùy chỉnh game</string>
+    <string name="new_game_started">Game mới！</string>
+    <string name="no_more_histories">Không có nước lùi！</string>
+    <string name="menu_retract">Lùi nước</string>
+    <string name="menu_restart">Game mới</string>
+    <string name="menu_settings">Tùy chọn</string>
+</resources>

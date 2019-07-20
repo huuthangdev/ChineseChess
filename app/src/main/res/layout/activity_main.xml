@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_cotuong"
+    tools:context=".Activity.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonstart"
+        android:layout_centerInParent="true"
+        android:text="Tác giả: Nguyễn Hữu Thắng"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/buttonstart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/gray_button"
+        android:padding="5dp"
+        android:text="BẮT ĐẦU"
+        android:textColor="@drawable/gray_button_textcolor"
+        android:textSize="30sp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/buttonend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonstart"
+        android:layout_centerInParent="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/gray_button"
+        android:padding="5dp"
+        android:text="KẾT THÚC"
+        android:textColor="@drawable/gray_button_textcolor"
+        android:textSize="30sp"
+        tools:ignore="HardcodedText" />
+
+</RelativeLayout>
